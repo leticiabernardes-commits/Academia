@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <coloque o título da página no navegador aqui> -->
+    <title>Cadastro para a Academia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Overlay para escurecer levemente a imagem de fundo -->
+    <div class="overlay"></div>
+
+    <!-- Card central com o formulário -->
+    <div class="card">
+       
+        <!-- Cabeçalho do Card -->
+        <div class="card-header">
+            <!-- <coloque o emoji/ícone do título aqui> -->
+            <span class="icon">🏋️‍♂️</span>
+            <!-- <coloque o título do formulário aqui> -->
+            <h1>Cadastro para a Academia</h1>
+        </div>
+
+        <form action="https://formspree.io/f/moejjeqp" method="post">
+            <!-- Campo 1: Nome -->
+            <div class="input-group">
+                <!-- <coloque o rótulo/texto do campo 1 aqui> -->
+                <label for="nome">Seu nome completo:</label>
+                <!-- <coloque o texto de exemplo (placeholder) do campo 1 aqui> -->
+                <input type="text" name="nome" placeholder="Ex: Anthony Marciano">
+            </div>
+
+            <!-- Campo 2: Idade -->
+            <div class="input-group">
+                <!-- <coloque o rótulo/texto do campo 2 aqui> -->
+                <label for="idade">Data de Nacimento:</label>
+                <!-- <coloque o texto de exemplo (placeholder) do campo 2 aqui> -->
+                <input type="text" name="Data de Nasc." placeholder="Ex: aa/bb/cccc">
+            </div>
+
+            <!-- Campo 3: Instrumento -->
+            <div class="input-group">
+                <!-- <coloque o rótulo/texto do campo 3 aqui> -->
+                <label for="cpf">"CPF:"</label>
+                <!-- <coloque o texto de exemplo (placeholder) do campo 3 aqui> -->
+                <input type="text" name="cpf" placeholder="Ex: 123456789-12">
+            </div>
+            <div class="input-group">
+                <!-- <coloque o rótulo/texto do campo 3 aqui> -->
+                <label for="Telefone">"Telefone:"</label>
+                <!-- <coloque o texto de exemplo (placeholder) do campo 3 aqui> -->
+                <input type="text" name="telefone" placeholder="Ex: 12 123456789">
+            </div>
+            <div class="input-group">
+                <!-- <coloque o rótulo/texto do campo 3 aqui> -->
+                <label for="restrição">"Restrição Física:"</label>
+                <!-- <coloque o texto de exemplo (placeholder) do campo 3 aqui> -->
+                <input type="text" name="Restrição Física" placeholder="Ex: Escoliose; Impossibilitações...">
+            </div>
+
+            <!-- Botão de Envio -->
+            <!-- <coloque o texto do botão de envio aqui> -->
+            <button type="submit" class="btn-submit"> 
+                Garantir minha inscrição 📋
+            </button>
+        </form>
+
+    </div>
+
+</body>
+</html>
